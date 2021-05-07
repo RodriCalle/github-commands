@@ -21,6 +21,8 @@ git branch: muestra las ramas del repositorio y de verde la rama actual
 git branch name: nueva rama
 git checkout name: mover a una rama
 
+git merge branch: copiar lo de un branch a otro
+
 
 
 ls: all directories
