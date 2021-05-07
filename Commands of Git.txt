@@ -1,0 +1,32 @@
+-Config of git
+git config --global user.email "..."
+git config --global user.name "..."
+
+- Basic Commands:
+git init: inicializar un proyecto nuevo (crea carpeta .git)
+git add file:  pasar archivos(working directory ->staging area)
+git add .:agrega todos los archivos
+git status: estado de archivos
+git commit: pasar archivos(staging area-> repository)
+   git commit 
+git push: subir a un repositorio
+git pull: traer cambios
+git clone: clona un repositorio desde branch principal
+git log: codigo de version de commit con info general
+git checkout -- file: revertir cambios de archivo
+git diff file: muestra las diferencias del archivo modificado
+
+- Branch:
+git branch: muestra las ramas del repositorio y de verde la rama actual
+git branch name: nueva rama
+git checkout name: mover a una rama
+
+
+
+ls: all directories
+pwd: saber la ubicacion de directorio actual
+cd Desktop:entrar a carpeta
+
+
+
+Archivo .gitignore agregar las carpetas que se desea ignorar y agregar el .gitignore
