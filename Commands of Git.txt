@@ -9,7 +9,7 @@ git add .:agrega todos los archivos
 git status: estado de archivos
 git commit: pasar archivos(staging area-> repository)
    git commit 
-git push: subir a un repositorio
+git push origin rama: subir a un repositorio
 git pull: traer cambios
 git clone: clona un repositorio desde branch principal
 git log: codigo de version de commit con info general
