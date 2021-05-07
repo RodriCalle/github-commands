@@ -32,3 +32,10 @@ cd Desktop:entrar a carpeta
 
 
 Archivo .gitignore agregar las carpetas que se desea ignorar y agregar el .gitignore
+
+
+1. git add .
+2. git commit -m "test:..."
+3. git flow feature publish test-Place
+
+
