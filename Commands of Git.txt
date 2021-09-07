@@ -29,9 +29,11 @@ git diff file: muestra las diferencias del archivo modificado
 git branch: muestra las ramas del repositorio y de verde la rama actual
 git branch name: nueva rama
 git checkout name: mover a una rama
-
 git merge branch: copiar lo de un branch a otro
 
+git branch -d name: elimina la rama de forma segura, si hay cambios sin guardar no se elimina
+git branch -D name: fuerza la eliminacion de una rama 
+git branch -m name: cambiar el nombre de la rama actual
 
 
 ls: all directories
