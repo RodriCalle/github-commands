@@ -1,19 +1,28 @@
--Config of git
+- Git Configuration
 git config --global user.email "..."
 git config --global user.name "..."
 
 - Basic Commands:
 git init: inicializar un proyecto nuevo (crea carpeta .git)
-git add file:  pasar archivos(working directory ->staging area)
-git add .:agrega todos los archivos
-git status: estado de archivos
-git commit: pasar archivos(staging area-> repository)
-   git commit 
-git push origin rama: subir a un repositorio
-git pull: traer cambios
+
 git clone: clona un repositorio desde branch principal
+
+git add file:  pasar archivos(working directory ->staging area)
+
+git add .:agrega todos los archivos
+
+git status: estado de archivos
+
+git commit: pasar archivos(staging area-> repository)
+
+git push origin rama: subir a un repositorio
+
+git pull: traer cambios
+
 git log: codigo de version de commit con info general
+
 git checkout -- file: revertir cambios de archivo
+
 git diff file: muestra las diferencias del archivo modificado
 
 - Branch:
