@@ -36,6 +36,14 @@ git branch -D name: fuerza la eliminacion de una rama del repositorio local
 git branch -m name: cambiar el nombre de la rama actual
 git push <remote> :name   elimina rama del reposiotiro remoto
 
+- Subir repositorio local a repositorio remoto:
+git init
+git add .
+git commit -m "First commit"
+git remote add origin <remote repository URL>
+git remote -v  Verifies the new remote URL
+git push origin master
+
 
 ls: all directories
 pwd: saber la ubicacion de directorio actual
